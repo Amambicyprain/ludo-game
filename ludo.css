@@ -1,0 +1,340 @@
+body{
+	padding: 0,
+	margin:0;
+	box-sizing: border-box;
+}
+.ludo-container{
+	background:skyblue;
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	margin-top: 5%;
+	position: relative;
+	display :flex;
+}
+.flex-container{
+	width:96%;
+	height: 40%;
+	/*margin: 2%;*/
+	margin-bottom: 0;
+	background-color:#fff;
+	border: 2px solid grey;
+	position: relative;
+	top: 1.5%;
+	left: 1.5%;
+	display: flex;
+	
+
+}
+.sp{
+	position: absolute;
+	top: 60px;
+	right:  193px;
+}
+.sp1{
+	position: absolute;
+	right: 1px;
+	padding: 1px;
+	top: 2px;
+	
+}
+
+.flex-container3{
+	width:96%;
+	height: 20%;
+	/*margin: 2%;*/
+	margin-bottom: 0;
+	background-color:#fff;
+	border: 2px solid grey;
+	position: absolute;
+	top: 40%;
+	left: 1.5%;
+
+	
+	
+
+}
+.flex-container2{
+	align-self: flex-start;
+	width:96%;
+	height: 40%;
+	/*margin: 2%;*/
+	margin-bottom: 0;
+	background-color:#fff;
+	border: 2px solid grey;
+	position: absolute;
+	top: 58%;
+	left: 1.5%;
+	display: flex;
+	
+
+}
+
+.ludo-green-field{
+	background: green;
+	flex: 2;
+	height: 100%;
+	position: relative;
+}
+.ludo-red-field{
+	background: red;
+	flex: 2;
+	height: 100%;
+}
+.ludo-cells-container{
+	background: #fff;
+	height: 100%;
+	width: 20%;
+
+}
+.ludo-cells-container2{
+	background: #fff;
+	height: 100%;
+	width: 20%;
+	position: relative;
+	width: 20%;
+	left: 0;
+
+
+}
+.flex-container3-rw1{
+	background: #fff;
+	width: 40%;
+	height: 27.5%;
+	position: relative;
+	 writing-mode: tb-rl;
+     transform: rotate(-180deg);
+	
+	
+}
+.row{
+	float: left;
+}
+.rowfix{
+	position: absolute;
+	top: 60px;
+	left:  193px;
+}
+
+.flex-container3-rw2{
+	background: #fff;
+	width: 39.5%;
+	height: 90%;
+	position: relative;
+	left: 0%;
+	bottom: 30%;
+	display: inline-block;
+	
+}
+.center{
+	width: 20%;
+	height: 100%;
+	border-radius: 2%;
+	background: lightblue;
+}
+.center-red{
+	width: 20%;
+	height: 25%;
+	background: lightblue;
+	position: absolute;
+	top: 0px;
+	border-top:10px solid lightblue;
+}
+.ludo-cellflex {
+	height: 100%;
+	width: 100%;
+}
+
+.ludo-yellow-field{
+	background: yellow;
+	flex: 2;
+	height: 100%;
+}
+.ludo-blue-field{
+	background: blue;
+	flex: 2;
+	height: 100%;
+}
+.lud-cells{
+	float: left;
+	
+}
+.cells-white{
+	height: 29.5px;
+	width: 29.5px;
+	border: 1px solid lightgrey;
+
+}
+.clearfix{
+	clear: both;
+}
+.cells-red{
+	height: 29.5px;
+	width: 29.5px;
+	border: 1px solid lightgrey ;
+	background: red;
+}
+.cell-yellow{
+	height: 29.5px;
+	width: 29.5px;
+	border: 1px solid lightgrey;
+	background: yellow;
+}
+.cells-green{
+	height: 29.5px;
+	width: 29.5px;
+	border: 1.5px solid lightgrey;
+	background: green;
+}
+.cells-blue{
+	border: 1px solid lightgrey;
+	background: blue;
+}
+.lud-cellsa{
+	height: 29.5px;
+	width: 29.5px;
+	border: 1px solid lightgrey;
+	position: relative;
+	display: flex;
+}
+.green-seed-plate{
+	width: 60%;
+	height: 60%;
+	background: #fff;
+	position: absolute;
+	left: 20%;
+	top: 20%;
+}.yellow-seed-plate{
+	width: 30%;
+	height: 60%;
+	background: #fff;
+	position: absolute;
+	left: 5%;
+	top: 20%;
+}
+/*ludo seed set up*/
+.seeds-green{
+	width: 10%;
+	height: 10%;
+	background: green;
+	margin: 1%;
+	position: relative;
+	border-radius: 50%;
+}
+.seeds-blue{
+	width: 10%;
+	height: 10%;
+	background: blue;
+	margin: 1%;
+	position: relative;
+	border-radius: 50%;
+}
+.seeds-yellow{
+	width: 10%;
+	height: 10%;
+	background: yellow;
+	margin: 1%;
+	position: relative;
+	border-radius: 52%;
+
+}
+.seeds-red{
+	width: 10%;
+	height: 10%;
+	background: red;
+	margin: 1%;
+	position: relative;
+	border-radius: 50%;
+}
+.seed1{
+	left: 20%;
+	top: 25%;
+}
+.seed2{
+	left: 20%;
+	top: 43%;
+}
+.seed3{
+	left:50%;
+	top: 3%;
+}
+.seed4{
+	left: 50%;
+	top: 20%;
+}
+.red-seed-plate{
+	width: 60%;
+	height: 60%;
+	background: #fff;
+	position: relative;
+	left: 20%;
+	top: 20%;
+}
+.blue-seed-plate{
+	width: 60%;
+	height: 60%;
+	background: #fff;
+	position: relative;
+	left: 20%;
+	top: 20%;
+}
+#dicea{
+	height: 100px;
+	width: 100px;
+	background: red;
+	position: absolute;
+	top:20%;
+	left: 70%;
+	margin-bottom: 10px;
+}
+#result1{
+	height: 40px;
+	width: 94px;
+	background: red;
+	position: absolute;
+	margin-top: 10px;
+	top:40%;
+	left: 70%;
+	background: #000;
+	color: #fff;
+	padding: 3px;
+}
+h3{
+	text-align: center;	
+}
+#result2{
+	height: 40px;
+	width: 94px;
+	background: #000;
+	color: #fff;
+	position: absolute;
+	left: 22%;
+	margin-top: 10px; 
+	bottom: -33px;
+	padding: 3px;
+}
+
+
+#diceb{
+	height: 100px;
+	width: 100px;
+	background: red;
+	position: absolute;
+	left: 22%;
+	bottom: 8%;
+}
+img{
+	width: 100%;
+	height: 100%;
+	transition: 0.1s ease ;
+}
+.dice-seed{
+	height: 20%;
+	width: 20%;
+	background: green;
+	margin: 2%;
+}
+.dice-seed1{
+	position: relative;
+	left: 
+}
